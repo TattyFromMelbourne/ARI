@@ -1,9 +1,9 @@
 # ARI
 
-ARI [Docassemble](https://docassemble.org) package for Automated readability indexing.
+ARI is a [docassemble](https://docassemble.org) package for automated readability indexing.
 
 
-## install
+## How to install
 
 Get into a bash session of your running docassemble docker container
 
@@ -24,3 +24,6 @@ cd /tmp/ARI
 chmod 755 build.sh
 sh build.sh
 ```
+
+The service should then be available on<br/>
+__https://&lt;your domain&gt;/interview?i=docassemble.ARI:data/questions/text.yml__
